@@ -1,6 +1,6 @@
 # Metal-RS: GPU-Accelerated Array Reduction
 
-A Rust project demonstrating GPU acceleration using Apple's Metal framework for parallel array reduction operations. This project compares CPU vs GPU performance for summing large arrays.
+A Rust project demonstrating GPU acceleration using Apple's Metal framework for parallel array reduction operations.
 
 >[!NOTE]
 > This project is just an experiment and requires a Macbook with an Apple silicon (M-series) chip.
