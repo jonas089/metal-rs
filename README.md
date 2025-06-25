@@ -108,3 +108,4 @@ Key parameters can be modified in `src/constants.rs`:
 - `CHUNK_SIZE`: Elements per chunk (default: 100 million)
 - `NUM_CHUNKS`: Number of chunks (default: 10)
 - `THREAD_GROUP_SIZE`: GPU threads per group (default: 32)
+
