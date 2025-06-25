@@ -63,6 +63,7 @@ fn main() {
         
         while num_elements > 1 {
             let group_size = THREAD_GROUP_SIZE.min(max_threads_for_kernel);
+            println!("Group size: {}", group_size);
             let num_groups = (num_elements + group_size as u64 - 1) / group_size as u64;
             unsafe {
                 let output_slice = std::slice::from_raw_parts_mut(
