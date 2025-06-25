@@ -104,7 +104,6 @@ metal-rs/
 ## 🔧 Configuration
 
 Key parameters can be modified in `src/constants.rs`:
-
 - `LIST_SIZE`: Total number of elements to process (default: 1 billion)
 - `CHUNK_SIZE`: Elements per chunk (default: 100 million)
 - `NUM_CHUNKS`: Number of chunks (default: 10)
